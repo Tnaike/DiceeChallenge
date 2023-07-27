@@ -1,9 +1,6 @@
 let randomNumber1 = Math.floor(Math.random() * 6) + 1;
-
-let randomDiceImage = 'dice' + randomNumber1 + '.png';
-let randomImageSource = './assets/images/' + randomDiceImage;
-let image1 = document.querySelectorAll('img')[0];
-image1.setAttribute('src', randomImageSource);
+let randomDiceImage = './assets/images/dice' + randomNumber1 + '.png';
+let image1 = document.querySelectorAll('img')[0].setAttribute('src', randomDiceImage);
 
 let randomNumber2 = Math.floor(Math.random() * 6) + 1;
 let randomDiceImage2 = './assets/images/dice' + randomNumber2 + '.png';
