@@ -49,6 +49,10 @@ img {
   cursor: pointer;
 }
 
+.dice-btn .btn:hover {
+  opacity: 0.9;
+}
+
 footer {
   margin-top: 5%;
   color: #eeeeee;
